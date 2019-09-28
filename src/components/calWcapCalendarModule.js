@@ -80,12 +80,12 @@ function initWcapProvider() {
 /** Module Registration */
 this.NSGetFactory = cid => {
   let scriptLoadOrder = [
-    "resource://calendar/calendar-js/calWcapUtils.js",
-    "resource://calendar/calendar-js/calWcapErrors.js",
-    "resource://calendar/calendar-js/calWcapRequest.js",
-    "resource://calendar/calendar-js/calWcapSession.js",
-    "resource://calendar/calendar-js/calWcapCalendar.js",
-    "resource://calendar/calendar-js/calWcapCalendarItems.js",
+    "resource://wcap-provider/components/calWcapUtils.js",
+    "resource://wcap-provider/components/calWcapErrors.js",
+    "resource://wcap-provider/components/calWcapRequest.js",
+    "resource://wcap-provider/components/calWcapSession.js",
+    "resource://wcap-provider/components/calWcapCalendar.js",
+    "resource://wcap-provider/components/calWcapCalendarItems.js",
   ];
 
   for (let script of scriptLoadOrder) {

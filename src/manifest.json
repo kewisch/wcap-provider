@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "WCAP Provider",
+  "description": "Sun Java System Calendar Server (WCAP)",
+  "version": "71.0a1",
+  "author": "Contributors of the Mozilla Calendar Project",
+  "legacy": true,
+  "applications": {
+    "gecko": {
+      "id": "{aee1c6a5-a3e7-4c1a-a42b-08f0be738c97}",
+      "strict_min_version": "71.0a1"
+    }
+  }
+}
